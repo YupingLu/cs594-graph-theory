@@ -1,0 +1,30 @@
+hw3  Yuping Lu
+
+1.
+a is not true. The longest path is u-c-b-a-v, but the one we got using BFS is u-a-v (see pic 1)
+
+b is not true. The longest cycle is u-c-b-a-v, but the one we got using BFS is u-a-v (see pic 1)
+
+
+
+
+
+
+
+
+
+
+
+
+c is not true. The longest path is u-a-v, but the one we got is u-v (see pic 2)
+
+
+
+
+
+
+
+
+
+
+d is not true. The longest cycle is u-c-b-a-v, but the one we got using DFS is u-a-v (see pic 3)
